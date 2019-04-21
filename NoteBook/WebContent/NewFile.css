@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.user_login{
+	position:absolute;
+	top:50px;
+	Left:20px;
+	width:400px;
+	padding:1px;
+	border:1px solid #DBDBD0;
+	background-color:#FFFFFF;
+}
+
+.user_login *{
+	margin:0;
+	padding:0;
+	font:normal 12px/1.5em "宋体", Verdana,Lucida,Arial,Helvetica,sans-serif;
+}
+
+.user_login .content{
+	padding:10px;
+}
+
+.user_login .frm_cont{
+	margin-bottom:5px;
+}
+
+.user_login .frm_cont label{
+	cursor:pointer;
+}
+
+.user_login .username input, .user_login .userPsw input, .user_login #inputpassword2, .user_login .validate input, .user_login #email{
+	width:300px;
+	height:20px;
+	padding:5px 5px 0;
+	border:2px solid #A9A98D;
+}
+
+.user_login .validate input{
+	margin-right:5px;
+	vertical-align:-1px;
+	*vertical-align:0;
+}
+
+
